@@ -1,0 +1,66 @@
+Lesson 1
+
+git a version control system
+github sharing and colaboration platform
+unix style comand line
+lesson 1: how version control could be useful and what diffrent forms it might take also install git.
+lesson 2: more about git and start using it
+lesson 3: get some practice sharing and colaborating code with others using github.
+
+diffrence between files
+windows - fc (file compare)
+mac of linux - diff (difference)
+
+I am using linux so this is what you type:
+cd Downloads/
+first get to Downloads then
+diff -u favorite-app-old.html favorite-app.html
+
+tools make comparing more easy
+
+version control in dropbox, docs, and wikipedia
+
+when would you want to have a version of your code saved?
+answer: whenever a large enough change is made such as 50 lines
+In git when you have a change then you have a commit
+
+                   ________________________
+                   |                                                   |
+                   |         Version control              |                                                                       
+                   |_______________________|
+type-of children are: manual saving, dropbox, google docs, wikipedia, git, svn
+child of git is commit
+diff is a child of commit
+there is a picture of the map down below.
+
+
+to see changes in git use:
+git diff firstId secondId
+
+commits shouldnt be to big or to small make a comit per Logical Change Solution
+makes sense to track files together: html and css files that make up  a webpage
+and photos you have photoshopped
+not: A novel, split up by chapter or competitiion-style coding
+
+git calls a collection of files is called a repository
+if you have three files and you only change one then git will track all three files when one file is changed
+a comit is a time '
+so you could change something and 6:54 and that comit shows all three files states at 6:54
+
+if you have a multi file commit then it will show the changes in all of the files
+to download git:
+sudo apt-get install git
+to check version:
+git --version
+
+to clone a repository:
+git clone linkToTheRepository
+linkToTheRepository = a link to a repository.
+d 
+To get colored diff output, run:
+git config --global color.ui auto
+
+
+
+
+
